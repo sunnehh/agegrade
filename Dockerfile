@@ -2,8 +2,8 @@
 FROM php:7.4-apache
 
 # Copy the application files into the container
-COPY ./AgeGrade
-COPY ./age_grade.php
+COPY ./AgeGrade ./
+COPY ./age_grade.php ./
 
 # Expose port 80
 EXPOSE 80

@@ -3,7 +3,7 @@ FROM php
 
 # Copy the application files into the container
 COPY ./AgeGrade ./
-COPY ./age_grade.php ./
+COPY ./index.php ./
 # Expose port 80
 EXPOSE 80
 # Define the entry point for the container
